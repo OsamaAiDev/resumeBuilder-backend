@@ -56,7 +56,7 @@ const PORT = process.env.PORT || 4000;
 // ✅ Allowed origins (both local + deployed frontend)
 const allowedOrigins = [
   "http://localhost:5173", // your local frontend (vite, react, etc.)
-  "https://your-frontend.vercel.app", // replace with your deployed frontend domain
+  "https://resume-builder-frontend-orcin.vercel.app/", // replace with your deployed frontend domain
 ];
 
 app.use(
